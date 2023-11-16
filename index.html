@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна 4 Гнатюк 6 Варіант</title>
+    <script src="https://use.fontawesome.com/08c46a2805.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="body">
+ 
+
+    <header class="header">
+        <div class="container-fluid ">
+            <div class="row align-items-center g-0">
+                <div class="col-xl-1 col-sm-1 col-12  offset-xl-1 offset-sm-1 d-none d-sm-block">
+                    <img src="img/logo.png" class="logo img-fluid " alt="логотип">
+                </div>
+                <div class="col-xl-6 col-sm-9 col-12  ">
+                    <ul class="nav justify-content-sm-end justify-content-center">
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#">
+                                <p class="p-header" style="color: black;">Home</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <p class="p-header">Destinations</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <p class="p-header">About</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <p class="p-header">Partner</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-3 col-sm-10 col-12  offset-xl-0 offset-sm-1 ">
+                    <ul class="nav justify-content-sm-end justify-content-center grid gap-0 column-gap-4">
+                        <li class="nav-item ">
+                            <button type="button" class="btn " style=" 
+                            --bs-btn-font-weight: 500;
+                            --bs-btn-line-height: 44px;
+                            --bs-btn-font-family: Inter;
+                            --bs-btn-color: orange;
+                            --bs-btn-bg: transparent;
+                            --bs-btn-border-color:orange;
+                            --bs-btn-padding-x: 46px;
+                            --bs-btn-padding-y: 0px;
+                            --bs-btn-hover-border-color: orange;
+                            --bs-btn-hover-color: orange;
+                            
+                            --bs-btn-border-radius: 5px;">
+                                Login
+                            </button>
+                        </li>
+                        <li class="nav-item ">
+                            <button type="button" class="btn " style=" 
+                            --bs-btn-font-weight: 500;
+                            --bs-btn-line-height: 44px;
+                            --bs-btn-font-family: Inter;
+                            --bs-btn-color: white;
+                            --bs-btn-bg: orange;
+                            --bs-btn-border-color: orange;
+                            --bs-btn-padding-x: 36px;
+                            --bs-btn-padding-y: 0px;
+                            --bs-btn-hover-border-color: orange;
+                            --bs-btn-hover-color: orange;
+                            --bs-btn-border-radius: 5px;">
+                                Register
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main class="main">
+
+        <section class="container-fluid explore-block ">
+            <div class="row align-items-center ">
+
+                <div class="col-lg-4 col-sm-5 col-12  offset-xl-1 offset-sm-1   ">
+                    <div class=" col ">
+                        <h1 class="text-1 d-flex justify-content-center justify-content-sm-start">
+                            Explore and Travel
+                        </h1>
+                    </div>
+                    <div class=" col  pt-5">
+                        <h5 class="text-2 d-flex justify-content-center justify-content-sm-start">
+                            Holiday Finder
+                        </h5>
+                    </div>
+                    <div class=" col ">
+                        <h5 class="line-1 d-flex justify-content-center justify-content-sm-start">
+                            ___
+                        </h5>
+
+                    </div>
+                    <div class="pt-3">
+
+                        <div class="d-flex justify-content-evenly justify-content-sm-start gap-3">
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" style=" 
+                                --bs-btn-font-weight: 400;
+                                --bs-btn-font-size: 15px;
+                                --bs-btn-line-height: 44px;
+                                --bs-btn-font-family: Inter;
+                                --bs-btn-color: #4A4C53;
+                                --bs-btn-bg: transparent;
+                                --bs-btn-border-color:#AFB0B9;
+                                --bs-btn-padding-x: 31px;
+                                --bs-btn-padding-y: 0px;
+                                --bs-btn-border-radius: 5px;
+                                --bs-btn-disabled-border-color: #AFB0B9;
+                                --bs-btn-hover-border-color: #AFB0B9;
+                                ">
+
+                                Location
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                <li><a class="dropdown-item" href="#">Option 3</a></li>
+                            </ul>
+                            <button class="btn  dropdown-toggle " type="button" data-bs-toggle="dropdown" style=" 
+                                --bs-btn-font-weight: 400;
+                                --bs-btn-font-size: 15px;
+                                --bs-btn-line-height: 44px;
+                                --bs-btn-font-family: Inter;
+                                --bs-btn-color: #4A4C53;
+                                --bs-btn-bg: transparent;
+                                --bs-btn-border-color:#AFB0B9;
+                                --bs-btn-padding-x: 35px;
+                                --bs-btn-padding-y: 0px;
+                                --bs-btn-border-radius: 5px;
+                                --bs-btn-disabled-border-color: #AFB0B9;
+                                --bs-btn-hover-border-color: #AFB0B9;
+                                ">
+
+                                Activity
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                <li><a class="dropdown-item" href="#">Option 3</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="d-flex justify-content-evenly justify-content-sm-start pt-3 gap-3">
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" style=" 
+                                --bs-btn-font-weight: 400;
+                                --bs-btn-font-size: 15px;
+                                --bs-btn-line-height: 44px;
+                                --bs-btn-font-family: Inter;
+                                --bs-btn-color: #4A4C53;
+                                --bs-btn-bg: transparent;
+                                --bs-btn-border-color:#AFB0B9;
+                                --bs-btn-padding-x: 40px;
+                                --bs-btn-padding-y: 0px;
+                                --bs-btn-border-radius: 5px;
+                                --bs-btn-disabled-border-color: #AFB0B9;
+                                --bs-btn-hover-border-color: #AFB0B9;
+                                ">
+
+                                Grade
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                <li><a class="dropdown-item" href="#">Option 3</a></li>
+                            </ul>
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" style=" 
+                                --bs-btn-font-weight: 400;
+                                --bs-btn-font-size: 15px;
+                                --bs-btn-line-height: 44px;
+                                --bs-btn-font-family: Inter;
+                                --bs-btn-color: #4A4C53;
+                                --bs-btn-bg: transparent;
+                                --bs-btn-border-color:#AFB0B9;
+                                --bs-btn-padding-x: 45px;
+                                --bs-btn-padding-y: 0px;
+                                --bs-btn-border-radius: 5px;
+                                --bs-btn-disabled-border-color: #AFB0B9;
+                                --bs-btn-hover-border-color: #AFB0B9;
+                                ">
+
+                                Date
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                <li><a class="dropdown-item" href="#">Option 3</a></li>
+                            </ul>
+                        </div>
+                        <div class="d-flex justify-content-center justify-content-sm-start pt-5">
+                            <button type="button" class="btn " style=" 
+                            --bs-btn-font-weight: 500;
+                            --bs-btn-line-height: 44px;
+                            --bs-btn-font-family: Inter;
+                            --bs-btn-color: white;
+                            --bs-btn-bg: orange;
+                            --bs-btn-border-color:orange;
+                            --bs-btn-padding-x: 46px;
+                            --bs-btn-padding-y: 0px;
+                            --bs-btn-hover-border-color: orange;
+                            --bs-btn-hover-color: orange;
+                            --bs-btn-border-radius: 5px;">
+                                Explore
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-5 col-5   d-none d-sm-block ">
+                    <img class="explore-pic img-fluid" src="img/explore.png" alt="walking man">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="container-fluid way-block">
+
+            <div class="row align-items-center  justify-content-center justify-content-sm-start">
+
+                <div class="col-lg-5 col-sm-5 col-5  offset-1 d-none d-sm-block ">
+                    <img class="way-pic img-fluid" src="img/way.png" alt="woman">
+                </div>
+
+                <div class="col-lg-4 col-sm-5 col-10  offset-lg-1 offset-sm-0  ">
+                    <div class="col d-flex justify-content-center justify-content-sm-start">
+                        <p class="text-3 text-center text-sm-start">
+                            A new way to explore the world
+                        </p>
+                    </div>
+                    <div class="col d-flex justify-content-center justify-content-sm-start">
+                        <p class="text-4 text-center text-sm-start">
+                            For decades travellers have reached for Lonely Planet books when looking to plan and execute
+                            their perfect
+                            trip, but now, they can also let Lonely Planet Experiences lead the way
+                        </p>
+                    </div>
+
+                    <div class="d-flex justify-content-center justify-content-sm-start pt-3">
+                        <button type="button" class="btn " style=" 
+                        --bs-btn-font-weight: 500;
+                        --bs-btn-line-height: 44px;
+                        --bs-btn-font-family: Inter;
+                        --bs-btn-color: white;
+                        --bs-btn-bg: orange;
+                        --bs-btn-border-color:orange;
+                        --bs-btn-padding-x: 46px;
+                        --bs-btn-padding-y: 0px;
+                        --bs-btn-hover-border-color: orange;
+                        --bs-btn-hover-color: orange;
+                        --bs-btn-border-radius: 5px;">
+                            Learn more
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container-fluid destinations-block">
+
+            <div class="row align-items-end  ">
+
+
+                <div
+                    class="col-lg-6 col-sm-6 col-12  offset-sm-2 d-flex justify-content-center justify-content-sm-start">
+                    <p class="text-5"> Featured destinations
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-sm-2 col-10   d-flex justify-content-end">
+                    <a class="nav-link " href="#">
+                        <p class="text-6">View all ></p>
+                    </a>
+                </div>
+
+
+            </div>
+
+            <div class="container-fluid  ">
+                <div class="row grid gap-1 justify-content-center">
+                    <div class="col-4 col-sm-2">
+                        <img class="img-fluid" src="img/featured1.png" alt="featured1">
+                    </div>
+                    <div class="col-4 col-sm-2">
+                        <img class="img-fluid" src="img/featured2.png" alt="featured2">
+                    </div>
+                    <div class="col-4 col-sm-2">
+                        <img class="img-fluid" src="img/featured3.png" alt="featured3">
+                    </div>
+                    <div class="col-4 col-sm-2">
+                        <img class="img-fluid" src="img/featured4.png" alt="featured4">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section class="container-fluid guides-block">
+
+            <div class="row align-items-center  justify-content-center justify-content-sm-start">
+
+                <div class="col-lg-4 col-sm-5 col-10   offset-sm-1  ">
+                    <div class="col d-flex justify-content-center justify-content-sm-start">
+                        <p class="text-3 text-center text-sm-start">
+                            Guides by Thousand Sunny
+                        </p>
+                    </div>
+                    <div class="col d-flex justify-content-center justify-content-sm-start">
+                        <p class="text-4 text-center text-sm-start">
+                            Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and
+                            Android) is the ultimate resource before and during a trip.
+                        </p>
+                    </div>
+
+                    <div class="d-flex justify-content-center justify-content-sm-start pt-3">
+                        <button type="button" class="btn " style=" 
+                        --bs-btn-font-weight: 500;
+                        --bs-btn-line-height: 44px;
+                        --bs-btn-font-family: Inter;
+                        --bs-btn-color: white;
+                        --bs-btn-bg: orange;
+                        --bs-btn-border-color:orange;
+                        --bs-btn-padding-x: 46px;
+                        --bs-btn-padding-y: 0px;
+                        --bs-btn-hover-border-color: orange;
+                        --bs-btn-hover-color: orange;
+                        --bs-btn-border-radius: 5px;">
+                            Download
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-sm-6 col-5  offset-sm-0 offset-lg-1 d-none d-sm-block ">
+                    <img class="way-pic img-fluid" src="img/guides.png" alt="man">
+                </div>
+
+            </div>
+        </section>
+
+        <div class="container-fluid testimonials-block">
+            <div class="co-sm-6 col-12 offset-sm-1 d-flex justify-content-center justify-content-sm-start">
+                <p class="text-7"> Testimonials</p>
+            </div>
+        </div>
+
+        <section class="container-fluid ">
+            <div class="row align-items-center d-flex">
+
+                <div class="col-lg-4 col-sm-5 col-12  offset-xl-1 offset-sm-1   ">
+                    <div class=" col justify-content-center justify-content-sm-start d-flex">
+                        <ul class="d-flex grid gap-2" style="padding-left: 0rem;">
+                            <li>
+                                <img clsss="img-fluid" src="img/star.png" alt="star">
+                            </li>
+                            <li>
+                                <img clsss="img-fluid" src="img/star.png" alt="star">
+                            </li>
+                            <li>
+                                <img clsss="img-fluid" src="img/star.png" alt="star">
+                            </li>
+                            <li>
+                                <img clsss="img-fluid" src="img/star.png" alt="star">
+                            </li>
+                            <li>
+                                <img clsss="img-fluid" src="img/star.png" alt="star">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=" col  pt-3">
+                        <p class="text-8 d-flex justify-content-center justify-content-sm-start
+                        text-center text-sm-start">
+                            “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu,
+                            facilisis quis purus. Morbi blandit sit amet turpis nec”
+                        </p>
+                    </div>
+                    <div class=" col text-center text-sm-start">
+                        <p class="text-9 d-flex justify-content-center justify-content-sm-start">
+                            Edward Newgate
+                        </p>
+                    </div>
+                    <div class=" col text-center text-sm-start">
+                        <p class="text-10 d-flex justify-content-center justify-content-sm-start">
+                            Founder Circle
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-5  offset-lg-1 offset-sm-0  d-none d-sm-block ">
+                    <img class="img-fluid" src="img/testimonials.png" alt="man with camera">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container-fluid trending-block">
+            <div class="row align-items-end  ">
+
+
+                <div
+                    class="col-lg-8 col-sm-8 col-12  offset-sm-1 d-flex justify-content-center justify-content-sm-start">
+                    <p class="text-5"> Trending stories
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-sm-2 col-10   d-flex justify-content-end">
+                    <a class="nav-link " href="#">
+                        <p class="text-6">View all ></p>
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="row">
+
+                <div class="col-5 col-sm-3 offset-1 offset-sm-0">
+                    <div class="card" style="--bs-card-spacer-y: 0px;
+                    --bs-card-spacer-x: 5px;
+                    --bs-card-border-width: 0px;
+                    --bs-card-border-radius: 0px;
+                    ">
+                        <img class="img-fluid" src="img/trending1.png" alt="trending1">
+                        <div class="card-body">
+                            <p class="text-11 text-start">
+                                The many benefits of
+                                taking a healing holiday
+                            </p>
+                            <p class="text-12 text-start">‘Helaing holidays’ are on the rise
+                                tohelp maximise your health and happines...
+                            </p>
+                            <button type="button" class="btn " style=" 
+                            --bs-btn-font-weight: 500;
+                            --bs-btn-line-height: 44px;
+                            --bs-btn-font-family: Inter;
+                            --bs-btn-color: orange;
+                            --bs-btn-bg: transparent;
+                            --bs-btn-border-color:transparent;
+                            --bs-btn-padding-x: 0px;
+                            --bs-btn-padding-y: 0px;
+                            --bs-btn-hover-border-color: orange;
+                            --bs-btn-hover-color: orange;
+                            
+                            --bs-btn-border-radius: 5px;">
+                                Read more
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-3">
+                    <div>
+
+                    </div>
+                    <div class="card" style="--bs-card-spacer-y: 0px;--bs-card-spacer-x: 5px;--bs-card-border-width: 0px;
+                    --bs-card-border-radius: 0px;
+                    ">
+                        <img class="img-fluid" src="img/trending2.png" alt="trending2">
+                        <div class="card-body ">
+                            <p class="text-11 text-start">
+                                The best Kyoto restaurant
+                                to try Japanese food
+                            </p>
+                            <p class="text-12 text-start">From tofu to teahouses, here’s our guide to Kyoto’s best
+                                restaurants
+                                to visit...
+                            </p>
+                            <button type="button" class="btn " style=" 
+                            --bs-btn-font-weight: 500;
+                            --bs-btn-line-height: 44px;
+                            --bs-btn-font-family: Inter;
+                            --bs-btn-color: orange;
+                            --bs-btn-bg: transparent;
+                            --bs-btn-border-color:transparent;
+                            --bs-btn-padding-x: 0px;
+                            --bs-btn-padding-y: 0px;
+                            --bs-btn-hover-border-color: orange;
+                            --bs-btn-hover-color: orange;
+                            
+                            --bs-btn-border-radius: 5px;">
+                                Read more
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-3 offset-1 offset-sm-0">
+                    <div class="card" style="--bs-card-spacer-y: 0px;
+                    --bs-card-spacer-x: 5px;
+                    --bs-card-border-width: 0px;
+                    --bs-card-border-radius: 0px;
+                    ">
+                        <img class="img-fluid" src="img/trending3.png" alt="trending3">
+                        <div class="card-body">
+                            <p class="text-11 text-start">
+                                Skip Chichen Itza and head
+                                to this remote Yucatan
+                            </p>
+                            <p class="text-12 text-start">It’s remote and challenging to get,
+                                but braving the jungle and exploring
+                                these ruins without the...
+                            </p>
+                            <button type="button" class="btn " style=" 
+                            --bs-btn-font-weight: 500;
+                            --bs-btn-line-height: 44px;
+                            --bs-btn-font-family: Inter;
+                            --bs-btn-color: orange;
+                            --bs-btn-bg: transparent;
+                            --bs-btn-border-color:transparent;
+                            --bs-btn-padding-x: 0px;
+                            --bs-btn-padding-y: 0px;
+                            --bs-btn-hover-border-color: orange;
+                            --bs-btn-hover-color: orange;
+                            
+                            --bs-btn-border-radius: 5px;">
+                                Read more
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-3">
+                    <div class="card " style="--bs-card-spacer-y: 0px;
+                    --bs-card-spacer-x: 5px;
+                    --bs-card-border-width: 0px;
+                    --bs-card-border-radius: 0px;
+                    ">
+                        <img class="img-fluid" src="img/trending4.png" alt="trending4">
+                        <div class="card-body align-items-end ">
+                            <p class="text-11 text-start">
+                                Surf’s up at these beginner
+                                spots around the world
+                            </p>
+                            <p class="text-12 text-start">If learning to surf has in on your to-
+                                do list for a while, the good news
+                                is: it’s never too late...
+                            </p>
+                            <button type="button" class="btn " style=" 
+                            --bs-btn-font-weight: 500;
+                            --bs-btn-line-height: 44px;
+                            --bs-btn-font-family: Inter;
+                            --bs-btn-color: orange;
+                            --bs-btn-bg: transparent;
+                            --bs-btn-border-color:transparent;
+                            --bs-btn-padding-x: 0px;
+                            --bs-btn-padding-y: 0px;
+                            --bs-btn-hover-border-color: orange;
+                            --bs-btn-hover-color: orange;
+                            
+                            --bs-btn-border-radius: 5px;">
+                                Read more
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <footer class="footer" >
+        <div class="container-fluid" style="background-color: #F9F9FB; padding-top: 4vw;">
+
+
+
+            <div class="container-fluid ">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-1 col-sm-1  offset-lg-1 offset-sm-0 d-none d-sm-block ps-2">
+                        <img src="img/logo.png" class="logo img-fluid " alt="логотип">
+                    </div>
+                    <div class="col-lg-2 col-sm-2 col-4 offset-lg-3 offset-sm-3 offset-0 ps-0">
+                        <p class="text-13 ">
+                            Destinations
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-sm-3 col-4 offset-lg-0 offset-sm-0 offset-0 ps-0">
+                        <p class="text-13  text-center text-sm-start">
+                            Shop
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-sm-3 col-4 offset-lg-0 offset-sm-0 offset-0 ps-0">
+                        <p class="text-13  text-end text-sm-start">
+                            Interests
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-fluid ">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-3 col-sm-4  offset-lg-1 offset-sm-0 d-none d-sm-block ps-2">
+                        <p class="text-14">
+                            Plan and book your perfect trip with
+                            expert advice, travel tips destination
+                            information from us
+                        </p>
+                        <p class="text-15">
+                            ©2020 Thousand Sunny. All rights reserved
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-sm-2 col-4 offset-lg-1 offset-sm-0 offset-0 ps-0 pe-0">
+                        <ul class="justify-content-start ps-0">
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Africa
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Antarctica
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Asia
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Europe
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        America
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-3 col-4 offset-lg-0 offset-sm-0 offset-0 ps-0 pe-0">
+                        <ul class="justify-content-start ps-0 text-center text-sm-start">
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Destination Guides
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Pictorial & Gifts
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Special Offers
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Delivery Times
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        FAQs
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-3 col-4 offset-lg-0 offset-sm-0 offset-0 ps-0 pe-0">
+                        <ul class="justify-content-start ps-0 text-end text-sm-start">
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Adventure Travel
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Art And Culture
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Wildlife And Nature
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Family Holidays
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="!#">
+                                    <p class="text-16">
+                                        Food And Drink
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12   d-block d-sm-none">
+                        <p class="text-14 text-center">
+                            Plan and book your perfect trip with
+                            expert advice, travel tips destination
+                            information from us
+                        </p>
+                        <p class="text-15 text-center">
+                            ©2020 Thousand Sunny. All rights reserved
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <hr>
+
+            <section class=" container-fluid ">
+
+                <div class="row align-items-center g-0">
+                    <div class="col-12">
+                        <ul class="nav justify-content-center grid gap-0 column-gap-5">
+
+                            <li class="nav-item">
+                                <a href="nav-link">
+                                    <img class="img-fluid" src="img/twitter.png" alt="twitter">
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="nav-link">
+                                    <img class="img-fluid" src="img/facebook.png" alt="twitter">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="nav-link">
+                                    <img class="img-fluid" src="img/instagram.png" alt="twitter">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="nav-link">
+                                    <img class="img-fluid" src="img/linkedin.png" alt="twitter">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="nav-link">
+                                    <img class="img-fluid" src="img/youtube.png" alt="twitter">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

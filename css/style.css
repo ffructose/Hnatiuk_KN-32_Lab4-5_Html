@@ -1,0 +1,263 @@
+@font-face {
+    font-family: "Playfair";
+    src: url(../font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../font/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Muli";
+    src: url(../font/Mulish/Mulish-VariableFont_wght.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+h2 {
+    font-family: "Playfair";
+    font-style: normal;
+    font-size: 2.25vw;
+
+    font-weight: 700;
+    color: #000000;
+}
+
+.body {
+    width: 100vw;
+}
+
+/* header */
+
+.header {
+    padding-top: 2.69vw;
+}
+
+
+
+.p-header{
+    font-family: Inter;
+    color: #B8BECD;
+    margin-bottom: 0px;
+}
+
+
+/* header */
+
+
+/* main */
+
+/* explore and travel */
+
+.explore-block {
+    padding-top: 5vw;
+
+}
+
+.text-1 {
+    font-family: "Playfair";
+    font-style: normal;
+    
+    font-weight: 700;
+    color: #202336;
+}
+
+.text-2 {
+    font-family: "Inter";
+    font-style: normal;
+    
+    font-weight: 600;
+    color: #202336;
+}
+
+.line-1 {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 300;
+    font-weight: 200;
+    color: #202336;
+}
+
+/* a new way... */
+
+.way-block {
+    padding-top: 16.87vw;
+
+}
+
+.text-3 {
+    font-family: "Playfair";
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+
+.text-4 {
+    font-family: "Muli";
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+
+
+/* featured destinations */
+
+.destinations-block {
+    padding-top: 18.25vw;
+}
+
+.text-5 {
+    font-family: "Playfair";
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+
+.text-6 {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 300;
+    color: orange;
+}
+
+/* guides by */
+
+.guides-block {
+    padding-top: 14.44vw;
+
+}
+
+
+/* testimonials */
+
+.testimonials-block {
+    padding-top: 15.5vw;
+}
+
+.text-7 {
+    font-family: "Playfair";
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.text-8 {
+    font-family: "Muli";
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    line-height: 36px;
+}
+.text-9 {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+}
+.text-10 {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.85);
+}
+/* trending */
+
+.trending-block {
+    padding-top: 17.81vw;
+
+}
+.text-11 {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+    color: black;
+}
+.text-12 {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    color: #7D7987;
+    line-height: 26px;
+}
+
+/* main */
+
+/* footer */
+.footer {
+
+    width: 100vw;
+    padding-top: 12vw;
+    
+}
+
+.text-13 {
+
+    color: #000;
+    font-family: "Muli";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.text-14 {
+
+    color: #848484;
+    font-family: "Muli";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.text-15 {
+
+    color: #848484;
+    font-family: "Muli";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.text-16 {
+
+    color: #848484;
+    font-family: "Muli";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+
+a:link {
+    color: #848484;
+    text-decoration: none;
+
+}
+
